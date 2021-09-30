@@ -12,19 +12,11 @@ struct WLYLoginSignupView: View {
     
     var body: some View {
         VStack {
-            HStack {
-                Button("Sign up", action: logInTapped)
-                    .padding()
-                    .frame(maxWidth: .infinity)
-                    .font(showingLogin ? .body : .headline)
-                    .opacity(showingLogin ? 0.5 : 1)
-                Button("Log in", action: signUpTapped)
-                    .padding()
-                    .frame(maxWidth: .infinity)
-                    .font(showingLogin ? .headline : .body)
-                    .opacity(showingLogin ? 1 : 0.5)
-            }
-            .foregroundColor(.black)
+            WLYSwitch(
+                leftTitle: "Sign up",
+                right: $showingLogin,
+                rightTitle: "Log in"
+            )
             WLYLoginView()
         }
     }
