@@ -30,12 +30,26 @@ struct WLYSwitchButton: View {
     let action: () -> Void
     
     var body: some View {
-        Button(title, action: action)
-            .padding()
-            .frame(maxWidth: .infinity)
-            .font(selected ? .headline : .body)
-            .opacity(selected ? 1 : 0.5)
-            .foregroundColor(.black)
+        Button(action: action, label: {
+            ZStack {
+                Text(title)
+                    .padding()
+                    .font(selected ? .headline : .body)
+                    .opacity(selected ? 1 : 0.5)
+                    .foregroundColor(.black)
+                if selected {
+                    VStack {
+                        Spacer()
+                        Rectangle()
+                            .fill(Color.blue)
+                            .frame(height: 4)
+                    }
+                }
+            }
+        })
+        .frame(maxWidth: .infinity)
+        .padding()
+        .frame(height: 52)
     }
 }
 
