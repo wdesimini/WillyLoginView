@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CF94172C27066ED00077BF0D /* WillyLoginView.h in Headers */ = {isa = PBXBuildFile; fileRef = CF94172A27066ED00077BF0D /* WillyLoginView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF94173427066F230077BF0D /* WLYLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF94173327066F230077BF0D /* WLYLoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CF94172727066ED00077BF0D /* WillyLoginView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WillyLoginView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF94172A27066ED00077BF0D /* WillyLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WillyLoginView.h; sourceTree = "<group>"; };
 		CF94172B27066ED00077BF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF94173327066F230077BF0D /* WLYLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYLoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				CF94172A27066ED00077BF0D /* WillyLoginView.h */,
 				CF94172B27066ED00077BF0D /* Info.plist */,
+				CF94173327066F230077BF0D /* WLYLoginView.swift */,
 			);
 			path = WillyLoginView;
 			sourceTree = "<group>";
@@ -94,6 +97,7 @@
 				TargetAttributes = {
 					CF94172627066ED00077BF0D = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF94173427066F230077BF0D /* WLYLoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		CF94173027066ED00077BF0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 42UG54QP3B;
@@ -277,6 +283,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.WilsonDesimini.WillyLoginView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +292,7 @@
 		CF94173127066ED00077BF0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 42UG54QP3B;
