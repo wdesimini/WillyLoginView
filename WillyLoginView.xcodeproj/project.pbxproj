@@ -10,6 +10,7 @@
 		CF94172C27066ED00077BF0D /* WillyLoginView.h in Headers */ = {isa = PBXBuildFile; fileRef = CF94172A27066ED00077BF0D /* WillyLoginView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF94173427066F230077BF0D /* WLYLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF94173327066F230077BF0D /* WLYLoginView.swift */; };
 		CF941737270672AA0077BF0D /* WLYTitledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF941736270672AA0077BF0D /* WLYTitledTextField.swift */; };
+		CF94173A270675870077BF0D /* WLYLoginSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF941739270675870077BF0D /* WLYLoginSignupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		CF94172B27066ED00077BF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF94173327066F230077BF0D /* WLYLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYLoginView.swift; sourceTree = "<group>"; };
 		CF941736270672AA0077BF0D /* WLYTitledTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYTitledTextField.swift; sourceTree = "<group>"; };
+		CF941739270675870077BF0D /* WLYLoginSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYLoginSignupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 				CF94172A27066ED00077BF0D /* WillyLoginView.h */,
 				CF94172B27066ED00077BF0D /* Info.plist */,
 				CF94173327066F230077BF0D /* WLYLoginView.swift */,
+				CF941739270675870077BF0D /* WLYLoginSignupView.swift */,
 				CF941736270672AA0077BF0D /* WLYTitledTextField.swift */,
 			);
 			path = WillyLoginView;
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF94173A270675870077BF0D /* WLYLoginSignupView.swift in Sources */,
 				CF941737270672AA0077BF0D /* WLYTitledTextField.swift in Sources */,
 				CF94173427066F230077BF0D /* WLYLoginView.swift in Sources */,
 			);
