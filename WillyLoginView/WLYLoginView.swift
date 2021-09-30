@@ -18,21 +18,21 @@ struct WLYLoginView: View {
                 .font(.title)
                 .bold()
                 .padding(.vertical)
-            VStack(alignment: .leading) {
-                Text("Username")
-                TextField("Username", text: $username)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-            }
-            VStack(alignment: .leading) {
-                HStack {
-                    Text("Password")
-                    Spacer()
-                    Button("Forgot Password?", action: forgotPasswordTapped)
-                }
-                
-                TextField("Password", text: $password)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-            }
+            WLYTitledTextField(
+                detailButtonModel: nil,
+                placeholder: "Username",
+                title: "Username",
+                text: $username
+            )
+            WLYTitledTextField(
+                detailButtonModel: WLYDetailButtonModel(
+                    title: "Forgot Password?",
+                    action: forgotPasswordTapped
+                ),
+                placeholder: "Password",
+                title: "Password",
+                text: $password
+            )
             Spacer()
             Button("Log in", action: loginTapped)
                 .padding(.vertical)

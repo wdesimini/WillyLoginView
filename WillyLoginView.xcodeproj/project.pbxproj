@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CF94172C27066ED00077BF0D /* WillyLoginView.h in Headers */ = {isa = PBXBuildFile; fileRef = CF94172A27066ED00077BF0D /* WillyLoginView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF94173427066F230077BF0D /* WLYLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF94173327066F230077BF0D /* WLYLoginView.swift */; };
+		CF941737270672AA0077BF0D /* WLYTitledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF941736270672AA0077BF0D /* WLYTitledTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		CF94172A27066ED00077BF0D /* WillyLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WillyLoginView.h; sourceTree = "<group>"; };
 		CF94172B27066ED00077BF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF94173327066F230077BF0D /* WLYLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYLoginView.swift; sourceTree = "<group>"; };
+		CF941736270672AA0077BF0D /* WLYTitledTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYTitledTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 				CF94172A27066ED00077BF0D /* WillyLoginView.h */,
 				CF94172B27066ED00077BF0D /* Info.plist */,
 				CF94173327066F230077BF0D /* WLYLoginView.swift */,
+				CF941736270672AA0077BF0D /* WLYTitledTextField.swift */,
 			);
 			path = WillyLoginView;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF941737270672AA0077BF0D /* WLYTitledTextField.swift in Sources */,
 				CF94173427066F230077BF0D /* WLYLoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
