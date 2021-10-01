@@ -13,6 +13,7 @@
 		CF94173A270675870077BF0D /* WLYLoginSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF941739270675870077BF0D /* WLYLoginSignupView.swift */; };
 		CF941742270677CB0077BF0D /* WLYSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF941741270677CB0077BF0D /* WLYSwitch.swift */; };
 		CFCB31C9270756E0005F8936 /* WLYProminentButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB31C8270756E0005F8936 /* WLYProminentButtonStyle.swift */; };
+		CFCB31D227075A87005F8936 /* WLYTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB31D127075A87005F8936 /* WLYTextStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CF941739270675870077BF0D /* WLYLoginSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYLoginSignupView.swift; sourceTree = "<group>"; };
 		CF941741270677CB0077BF0D /* WLYSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYSwitch.swift; sourceTree = "<group>"; };
 		CFCB31C8270756E0005F8936 /* WLYProminentButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYProminentButtonStyle.swift; sourceTree = "<group>"; };
+		CFCB31D127075A87005F8936 /* WLYTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYTextStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				CF94173327066F230077BF0D /* WLYLoginView.swift */,
 				CFCB31C8270756E0005F8936 /* WLYProminentButtonStyle.swift */,
 				CF941741270677CB0077BF0D /* WLYSwitch.swift */,
+				CFCB31D127075A87005F8936 /* WLYTextStyle.swift */,
 				CF941736270672AA0077BF0D /* WLYTitledTextField.swift */,
 			);
 			path = WillyLoginView;
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF941742270677CB0077BF0D /* WLYSwitch.swift in Sources */,
+				CFCB31D227075A87005F8936 /* WLYTextStyle.swift in Sources */,
 				CF94173A270675870077BF0D /* WLYLoginSignupView.swift in Sources */,
 				CF941737270672AA0077BF0D /* WLYTitledTextField.swift in Sources */,
 				CF94173427066F230077BF0D /* WLYLoginView.swift in Sources */,

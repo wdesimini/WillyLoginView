@@ -15,9 +15,7 @@ struct WLYLoginView: View {
         VStack(alignment: .leading, spacing: 32) {
             Spacer()
             Text("Welcome back")
-                .font(.title)
-                .bold()
-                .padding(.vertical)
+                .textStyle(WLYTitleTextStyle())
             WLYTitledTextField(
                 detailButtonModel: nil,
                 placeholder: "Username",
