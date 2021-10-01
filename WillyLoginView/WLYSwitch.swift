@@ -14,39 +14,33 @@ struct WLYSwitch: View {
     
     var body: some View {
         HStack {
-            WLYSwitchButton(selected: !right, title: leftTitle) {
-                right = false
-            }
-            WLYSwitchButton(selected: right, title: rightTitle) {
-                right = true
-            }
+            Button(leftTitle) { right = false }
+                .buttonStyle(WLYSwitchButtonStyle(selected: !right))
+            Button(rightTitle) { right = true }
+                .buttonStyle(WLYSwitchButtonStyle(selected: right))
         }
     }
 }
 
-struct WLYSwitchButton: View {
-    var selected: Bool
-    let title: String
-    let action: () -> Void
+private struct WLYSwitchButtonStyle: ButtonStyle {
+    let selected: Bool
     
-    var body: some View {
-        Button(action: action, label: {
-            ZStack {
-                Text(title)
-                    .padding()
-                    .font(selected ? .headline : .body)
-                    .opacity(selected ? 1 : 0.5)
-                    .foregroundColor(.black)
-                if selected {
-                    VStack {
-                        Spacer()
-                        Rectangle()
-                            .fill(Color.blue)
-                            .frame(height: 4)
-                    }
+    func makeBody(configuration: Configuration) -> some View {
+        ZStack {
+            configuration.label
+                .padding()
+                .font(selected ? .headline : .body)
+                .opacity(selected ? 1 : 0.5)
+                .foregroundColor(.black)
+            if selected {
+                VStack {
+                    Spacer()
+                    Rectangle()
+                        .fill(Color.blue)
+                        .frame(height: 4)
                 }
             }
-        })
+        }
         .frame(maxWidth: .infinity)
         .padding()
         .frame(height: 52)

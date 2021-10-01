@@ -35,11 +35,7 @@ struct WLYLoginView: View {
             )
             Spacer()
             Button("Log in", action: loginTapped)
-                .padding(.vertical)
-                .frame(maxWidth: .infinity)
-                .background(Color.blue)
-                .foregroundColor(.white)
-                .cornerRadius(4)
+                .buttonStyle(WLYProminentButtonStyle())
         }
         .padding()
     }
