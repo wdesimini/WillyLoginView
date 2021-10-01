@@ -7,12 +7,6 @@
 
 import SwiftUI
 
-protocol WLYLoginService {
-    typealias Result = Swift.Result<Bool, Error>
-    typealias Handler = (Result) -> Void
-    func logIn(username: String, password: String, completion: @escaping Handler)
-}
-
 class WLYLoginViewModel: ObservableObject {
     @Published var error: Error?
     @Published var isLoggingIn = false
