@@ -18,7 +18,11 @@ struct WLYLoginSignupView: View {
                 rightTitle: "Log in"
             )
             Spacer()
-            WLYLoginView()
+            if showingLogin {
+                WLYLoginView()
+            } else {
+                WLYSignupView()
+            }
         }
     }
     
