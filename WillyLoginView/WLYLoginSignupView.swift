@@ -19,7 +19,7 @@ struct WLYLoginSignupView: View {
             )
             Spacer()
             if showingLogin {
-                WLYLoginView()
+                WLYLoginView(viewModel: WLYLoginViewModel())
             } else {
                 WLYSignupView()
             }
