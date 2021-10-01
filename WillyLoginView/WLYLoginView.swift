@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct WLYLoginView: View {
+    @State var rememberDevice = false
     @State var password = ""
     @State var username = ""
     
@@ -22,15 +23,21 @@ struct WLYLoginView: View {
                 title: "Username",
                 text: $username
             )
-            WLYTitledTextField(
-                detailButtonModel: WLYDetailButtonModel(
-                    title: "Forgot Password?",
-                    action: forgotPasswordTapped
-                ),
-                placeholder: "Password",
-                title: "Password",
-                text: $password
-            )
+            VStack(alignment: .leading) {
+                WLYTitledTextField(
+                    detailButtonModel: WLYDetailButtonModel(
+                        title: "Forgot Password?",
+                        action: forgotPasswordTapped
+                    ),
+                    placeholder: "Password",
+                    title: "Password",
+                    text: $password
+                )
+                WLYCheckbox(
+                    checked: $rememberDevice,
+                    text: "Remember this device"
+                )
+            }
             Spacer()
             Button("Log in", action: loginTapped)
                 .buttonStyle(WLYProminentButtonStyle())

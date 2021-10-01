@@ -22,3 +22,13 @@ struct WLYTitleTextStyle: ViewModifier {
             .padding(.vertical)
     }
 }
+
+struct WLYFootnoteTextStyle: ViewModifier {
+    private let font = Font.system(.footnote)
+    
+    func body(content: Content) -> some View {
+        content
+            .font(font)
+            .opacity(0.5)
+    }
+}
