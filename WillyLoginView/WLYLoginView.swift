@@ -14,7 +14,6 @@ struct WLYLoginView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 32) {
-            Spacer()
             Text("Welcome back")
                 .textStyle(WLYTitleTextStyle())
             WLYTitledTextField(

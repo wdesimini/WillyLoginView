@@ -15,7 +15,6 @@ struct WLYSignupView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 32) {
-            Spacer()
             Text("Let's get started")
                 .textStyle(WLYTitleTextStyle())
             WLYTitledTextField(

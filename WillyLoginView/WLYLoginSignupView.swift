@@ -17,6 +17,7 @@ struct WLYLoginSignupView: View {
                 right: $showingLogin,
                 rightTitle: "Log in"
             )
+            Spacer()
             WLYLoginView()
         }
     }
