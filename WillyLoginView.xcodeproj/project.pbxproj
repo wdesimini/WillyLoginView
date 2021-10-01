@@ -66,17 +66,49 @@
 			children = (
 				CF94172B27066ED00077BF0D /* Info.plist */,
 				CF94172A27066ED00077BF0D /* WillyLoginView.h */,
-				CFCB31D827075DF3005F8936 /* WLYCheckbox.swift */,
 				CF941739270675870077BF0D /* WLYLoginSignupView.swift */,
+				EF6D473E2707D70F001FDEA0 /* Shared */,
+				EF6D473F2707D75A001FDEA0 /* Modules */,
+			);
+			path = WillyLoginView;
+			sourceTree = "<group>";
+		};
+		EF6D473C2707D6EF001FDEA0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
 				CF94173327066F230077BF0D /* WLYLoginView.swift */,
 				EFFF3E1E27079E20005216A2 /* WLYLoginViewModel.swift */,
-				CFCB31C8270756E0005F8936 /* WLYProminentButtonStyle.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EF6D473D2707D6F9001FDEA0 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
 				CFCB31DD27076241005F8936 /* WLYSignupView.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		EF6D473E2707D70F001FDEA0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CFCB31D827075DF3005F8936 /* WLYCheckbox.swift */,
+				CFCB31C8270756E0005F8936 /* WLYProminentButtonStyle.swift */,
 				CF941741270677CB0077BF0D /* WLYSwitch.swift */,
 				CFCB31D127075A87005F8936 /* WLYTextStyle.swift */,
 				CF941736270672AA0077BF0D /* WLYTitledTextField.swift */,
 			);
-			path = WillyLoginView;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EF6D473F2707D75A001FDEA0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EF6D473C2707D6EF001FDEA0 /* Login */,
+				EF6D473D2707D6F9001FDEA0 /* Signup */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
