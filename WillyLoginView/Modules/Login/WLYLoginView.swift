@@ -67,8 +67,7 @@ struct WLYLoginView: View {
 struct WLYLoginView_Previews: PreviewProvider {
     static var previews: some View {
         let service = WLYLoginServiceSample()
-        let viewModel = WLYLoginViewModel()
-        viewModel.service = service
+        let viewModel = WLYLoginViewModel(service: service)
         return WLYLoginView(viewModel: viewModel)
     }
 }

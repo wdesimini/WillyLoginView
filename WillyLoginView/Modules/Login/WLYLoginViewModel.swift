@@ -11,7 +11,11 @@ class WLYLoginViewModel: ObservableObject {
     @Published var error: Error?
     @Published var isLoggingIn = false
     @Published var loggedIn: Bool?
-    var service: WLYLoginService!
+    private let service: WLYLoginService
+    
+    init(service: WLYLoginService) {
+        self.service = service
+    }
     
     private func didReceive(logInResult: WLYLoginService.Result) {
         do {
