@@ -9,6 +9,7 @@ import SwiftUI
 
 struct WLYLoginSignupView: View {
     @State var showingLogin = true
+    var viewModel: WLYLoginSignupViewModel
     
     var body: some View {
         VStack {
@@ -19,9 +20,9 @@ struct WLYLoginSignupView: View {
             )
             Spacer()
             if showingLogin {
-                WLYLoginView(viewModel: WLYLoginViewModel())
+                WLYLoginView(viewModel: viewModel.loginViewModel)
             } else {
-                WLYSignupView()
+                WLYSignupView(viewModel: viewModel.signupViewModel)
             }
         }
     }
@@ -35,6 +36,12 @@ struct WLYLoginSignupView: View {
 
 struct WLYLoginSignupView_Previews: PreviewProvider {
     static var previews: some View {
-        WLYLoginSignupView()
+        let loginService = WLYLoginServiceSample()
+        let signupService = WLYSignupServiceSample()
+        let viewModel = WLYLoginSignupViewModel(
+            loginService: loginService,
+            signupService: signupService
+        )
+        return WLYLoginSignupView(viewModel: viewModel)
     }
 }
