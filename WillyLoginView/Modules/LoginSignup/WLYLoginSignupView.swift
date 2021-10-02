@@ -26,12 +26,6 @@ struct WLYLoginSignupView: View {
             }
         }
     }
-    
-    private func logInTapped() {
-    }
-    
-    private func signUpTapped() {
-    }
 }
 
 struct WLYLoginSignupView_Previews: PreviewProvider {
