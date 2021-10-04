@@ -7,39 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF397D5E270A3325001F8816 /* WLYLogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF397D5D270A3325001F8816 /* WLYLogInView.swift */; };
+		CF397D62270BC1B5001F8816 /* WLY+TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF397D61270BC1B5001F8816 /* WLY+TextFieldStyle.swift */; };
+		CF397D65270BC1E8001F8816 /* WLY+ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF397D64270BC1E8001F8816 /* WLY+ButtonStyle.swift */; };
+		CF397D6C270BC23E001F8816 /* WLYCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF397D6B270BC23E001F8816 /* WLYCheckbox.swift */; };
+		CF397D6F270BC2E2001F8816 /* WLYSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF397D6E270BC2E2001F8816 /* WLYSignUpView.swift */; };
+		CF397D72270BC4E6001F8816 /* WLYOnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF397D71270BC4E6001F8816 /* WLYOnboardView.swift */; };
 		CF94172C27066ED00077BF0D /* WillyLoginView.h in Headers */ = {isa = PBXBuildFile; fileRef = CF94172A27066ED00077BF0D /* WillyLoginView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF94173427066F230077BF0D /* WLYLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF94173327066F230077BF0D /* WLYLoginView.swift */; };
-		CF941737270672AA0077BF0D /* WLYTitledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF941736270672AA0077BF0D /* WLYTitledTextField.swift */; };
-		CF94173A270675870077BF0D /* WLYLoginSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF941739270675870077BF0D /* WLYLoginSignupView.swift */; };
-		CF941742270677CB0077BF0D /* WLYSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF941741270677CB0077BF0D /* WLYSwitch.swift */; };
-		CFCB31C9270756E0005F8936 /* WLYProminentButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB31C8270756E0005F8936 /* WLYProminentButtonStyle.swift */; };
-		CFCB31D227075A87005F8936 /* WLYTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB31D127075A87005F8936 /* WLYTextStyle.swift */; };
-		CFCB31D927075DF3005F8936 /* WLYCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB31D827075DF3005F8936 /* WLYCheckbox.swift */; };
-		CFCB31DE27076241005F8936 /* WLYSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB31DD27076241005F8936 /* WLYSignupView.swift */; };
-		EF6D47412707D7A7001FDEA0 /* WLYLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6D47402707D7A7001FDEA0 /* WLYLoginService.swift */; };
-		EF6D47432707D7E5001FDEA0 /* WLYSignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6D47422707D7E5001FDEA0 /* WLYSignupViewModel.swift */; };
-		EF6D47452707D837001FDEA0 /* WLYSignupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6D47442707D837001FDEA0 /* WLYSignupService.swift */; };
-		EF6D47482707DD69001FDEA0 /* WLYLoginSignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6D47472707DD69001FDEA0 /* WLYLoginSignupViewModel.swift */; };
-		EFFF3E1F27079E20005216A2 /* WLYLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3E1E27079E20005216A2 /* WLYLoginViewModel.swift */; };
+		CFCB31D227075A87005F8936 /* WLY+TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB31D127075A87005F8936 /* WLY+TextStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF397D5D270A3325001F8816 /* WLYLogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYLogInView.swift; sourceTree = "<group>"; };
+		CF397D61270BC1B5001F8816 /* WLY+TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WLY+TextFieldStyle.swift"; sourceTree = "<group>"; };
+		CF397D64270BC1E8001F8816 /* WLY+ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WLY+ButtonStyle.swift"; sourceTree = "<group>"; };
+		CF397D6B270BC23E001F8816 /* WLYCheckbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYCheckbox.swift; sourceTree = "<group>"; };
+		CF397D6E270BC2E2001F8816 /* WLYSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYSignUpView.swift; sourceTree = "<group>"; };
+		CF397D71270BC4E6001F8816 /* WLYOnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYOnboardView.swift; sourceTree = "<group>"; };
 		CF94172727066ED00077BF0D /* WillyLoginView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WillyLoginView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF94172A27066ED00077BF0D /* WillyLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WillyLoginView.h; sourceTree = "<group>"; };
 		CF94172B27066ED00077BF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF94173327066F230077BF0D /* WLYLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYLoginView.swift; sourceTree = "<group>"; };
-		CF941736270672AA0077BF0D /* WLYTitledTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYTitledTextField.swift; sourceTree = "<group>"; };
-		CF941739270675870077BF0D /* WLYLoginSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYLoginSignupView.swift; sourceTree = "<group>"; };
-		CF941741270677CB0077BF0D /* WLYSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYSwitch.swift; sourceTree = "<group>"; };
-		CFCB31C8270756E0005F8936 /* WLYProminentButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYProminentButtonStyle.swift; sourceTree = "<group>"; };
-		CFCB31D127075A87005F8936 /* WLYTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYTextStyle.swift; sourceTree = "<group>"; };
-		CFCB31D827075DF3005F8936 /* WLYCheckbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYCheckbox.swift; sourceTree = "<group>"; };
-		CFCB31DD27076241005F8936 /* WLYSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYSignupView.swift; sourceTree = "<group>"; };
-		EF6D47402707D7A7001FDEA0 /* WLYLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYLoginService.swift; sourceTree = "<group>"; };
-		EF6D47422707D7E5001FDEA0 /* WLYSignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYSignupViewModel.swift; sourceTree = "<group>"; };
-		EF6D47442707D837001FDEA0 /* WLYSignupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYSignupService.swift; sourceTree = "<group>"; };
-		EF6D47472707DD69001FDEA0 /* WLYLoginSignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYLoginSignupViewModel.swift; sourceTree = "<group>"; };
-		EFFF3E1E27079E20005216A2 /* WLYLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLYLoginViewModel.swift; sourceTree = "<group>"; };
+		CFCB31D127075A87005F8936 /* WLY+TextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WLY+TextStyle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +41,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF397D7E270BCAC5001F8816 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CF397D82270BCAFC001F8816 /* Style */,
+				CF397D84270BCB02001F8816 /* View */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CF397D80270BCACF001F8816 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				CF397D5D270A3325001F8816 /* WLYLogInView.swift */,
+				CF397D71270BC4E6001F8816 /* WLYOnboardView.swift */,
+				CF397D6E270BC2E2001F8816 /* WLYSignUpView.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		CF397D82270BCAFC001F8816 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				CF397D64270BC1E8001F8816 /* WLY+ButtonStyle.swift */,
+				CF397D61270BC1B5001F8816 /* WLY+TextFieldStyle.swift */,
+				CFCB31D127075A87005F8936 /* WLY+TextStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		CF397D84270BCB02001F8816 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF397D6B270BC23E001F8816 /* WLYCheckbox.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		CF94171D27066ED00077BF0D = {
 			isa = PBXGroup;
 			children = (
@@ -74,61 +99,10 @@
 			children = (
 				CF94172B27066ED00077BF0D /* Info.plist */,
 				CF94172A27066ED00077BF0D /* WillyLoginView.h */,
-				EF6D473E2707D70F001FDEA0 /* Shared */,
-				EF6D473F2707D75A001FDEA0 /* Modules */,
+				CF397D7E270BCAC5001F8816 /* Shared */,
+				CF397D80270BCACF001F8816 /* Module */,
 			);
 			path = WillyLoginView;
-			sourceTree = "<group>";
-		};
-		EF6D473C2707D6EF001FDEA0 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				EF6D47402707D7A7001FDEA0 /* WLYLoginService.swift */,
-				CF94173327066F230077BF0D /* WLYLoginView.swift */,
-				EFFF3E1E27079E20005216A2 /* WLYLoginViewModel.swift */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		EF6D473D2707D6F9001FDEA0 /* Signup */ = {
-			isa = PBXGroup;
-			children = (
-				EF6D47442707D837001FDEA0 /* WLYSignupService.swift */,
-				CFCB31DD27076241005F8936 /* WLYSignupView.swift */,
-				EF6D47422707D7E5001FDEA0 /* WLYSignupViewModel.swift */,
-			);
-			path = Signup;
-			sourceTree = "<group>";
-		};
-		EF6D473E2707D70F001FDEA0 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				CFCB31D827075DF3005F8936 /* WLYCheckbox.swift */,
-				CFCB31C8270756E0005F8936 /* WLYProminentButtonStyle.swift */,
-				CF941741270677CB0077BF0D /* WLYSwitch.swift */,
-				CFCB31D127075A87005F8936 /* WLYTextStyle.swift */,
-				CF941736270672AA0077BF0D /* WLYTitledTextField.swift */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		EF6D473F2707D75A001FDEA0 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				EF6D473C2707D6EF001FDEA0 /* Login */,
-				EF6D47462707DD5A001FDEA0 /* LoginSignup */,
-				EF6D473D2707D6F9001FDEA0 /* Signup */,
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
-		EF6D47462707DD5A001FDEA0 /* LoginSignup */ = {
-			isa = PBXGroup;
-			children = (
-				CF941739270675870077BF0D /* WLYLoginSignupView.swift */,
-				EF6D47472707DD69001FDEA0 /* WLYLoginSignupViewModel.swift */,
-			);
-			path = LoginSignup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,19 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF6D47452707D837001FDEA0 /* WLYSignupService.swift in Sources */,
-				EF6D47412707D7A7001FDEA0 /* WLYLoginService.swift in Sources */,
-				EFFF3E1F27079E20005216A2 /* WLYLoginViewModel.swift in Sources */,
-				EF6D47482707DD69001FDEA0 /* WLYLoginSignupViewModel.swift in Sources */,
-				CF941742270677CB0077BF0D /* WLYSwitch.swift in Sources */,
-				CFCB31D227075A87005F8936 /* WLYTextStyle.swift in Sources */,
-				CF94173A270675870077BF0D /* WLYLoginSignupView.swift in Sources */,
-				CFCB31DE27076241005F8936 /* WLYSignupView.swift in Sources */,
-				EF6D47432707D7E5001FDEA0 /* WLYSignupViewModel.swift in Sources */,
-				CF941737270672AA0077BF0D /* WLYTitledTextField.swift in Sources */,
-				CF94173427066F230077BF0D /* WLYLoginView.swift in Sources */,
-				CFCB31C9270756E0005F8936 /* WLYProminentButtonStyle.swift in Sources */,
-				CFCB31D927075DF3005F8936 /* WLYCheckbox.swift in Sources */,
+				CF397D62270BC1B5001F8816 /* WLY+TextFieldStyle.swift in Sources */,
+				CF397D65270BC1E8001F8816 /* WLY+ButtonStyle.swift in Sources */,
+				CFCB31D227075A87005F8936 /* WLY+TextStyle.swift in Sources */,
+				CF397D5E270A3325001F8816 /* WLYLogInView.swift in Sources */,
+				CF397D72270BC4E6001F8816 /* WLYOnboardView.swift in Sources */,
+				CF397D6F270BC2E2001F8816 /* WLYSignUpView.swift in Sources */,
+				CF397D6C270BC23E001F8816 /* WLYCheckbox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
